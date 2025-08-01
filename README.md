@@ -33,7 +33,7 @@ eddpm/
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/pengzj1/eddpm.git
 cd eddpm
 
 # 安装依赖
