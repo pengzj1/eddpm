@@ -61,10 +61,10 @@ python train.py
 
 
 
-### unet设置：
+## unet设置：
 参考gradio_demo.py里对iclight模型的调用，将数据集图像处理为8通道输入
-# 通道 0-3: 图像通过vae的潜在表示
-# 通道 4-7: 利用briarmbg移除背景后的前景通过vae潜在表示
+通道 0-3: 图像通过vae的潜在表示
+通道 4-7: 利用briarmbg移除背景后的前景通过vae潜在表示
 
 
 #### 算法1：基于概率掩码的高效去噪扩散（EDDPM）  
